@@ -1,0 +1,147 @@
+
+.one{
+
+    padding-left:10px;
+    margin-left:10px;
+    }
+
+.one1{
+     float:left;
+     padding-left:20px;
+     }
+.one3{
+     float:left;
+     margin-left:10px;
+     }
+.one4{
+     color:orange;
+      font-size:57px;
+      float:left;
+      padding-top:30px;
+      padding-left:60px;
+     }
+.one5{
+      float:left;
+      font-size:25px;
+      padding-top:30px;
+      padding-left:65px;
+     }
+.two{
+     width:230px;
+     height:150px;
+     background-color:#00e6ac;
+     float:left;
+     top: 250px;
+     border-radius: 10px;
+     clear:left;
+     margin-top:20px;
+     }
+.two1{
+      font-size:20px;
+      padding-top:30px;
+      padding-left:15px;
+      color:white;
+     }
+.two2{
+      padding-top:25px;
+      color:white;
+      padding-left:15px;
+     }
+.three{
+      margin-left:20px;
+      float:left;
+     }
+.three1{
+        background-color:#00e6ac;
+        width:900px;
+        height:40px;
+        padding-left:10px;
+        padding-top:10px;
+      }
+.three2{
+         width:900px;
+         height:150px;
+         padding-left:20px;
+         padding-top:10px;
+       }
+.four{
+     width:230px;
+     height:200px;
+     background-color:#00e6ac;
+     clear:left;
+     float:left;
+     margin-top:20px;
+     border-radius:10px;
+	 color:white;
+     }
+.four1{
+       padding-top:40px;
+       padding-left:25px;
+      }
+.four2{
+       padding-top:5px;
+       padding-left:25px;
+      }
+.five{
+       margin-left:20px;
+       float:left;
+     }
+.five1{
+       background-color:#00e6ac;
+       width:900px;
+       height:40px;
+       padding-left:10px;
+       padding-top:10px;
+      }
+.five2{
+      width:900px;
+      height:300px;
+      float:left;
+      padding-left:20px
+      }
+.six{
+    float:left;
+    clear:left;
+    margin-left:250px;
+    }
+.six1{
+       background-color:#00e6ac;
+       width:900px;
+       height:40px;
+       padding-left:10px;
+       padding-top:10px;
+     }
+.six2{
+     width:900px;
+     height:130px;
+     float:left;
+     padding-left:20px
+     }
+.seven{
+       float:left;
+       clear:left;
+       margin-left:250px;
+       border-radius:0px,0px,10px,10px;
+      }
+.seven1{
+       background-color:#00e6ac;
+       width:900px;
+       height:30px;
+       padding-left:10px;
+       padding-top:15px;
+       border-radius:0px,0px,10px,10px;
+       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

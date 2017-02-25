@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+	<html>
+	<body>
+		<input type="date" id="date1" value="date1"/>
+		<input type="date" id="date2" value="date2"/>
+		<button onclick="demo()">click</button>
+		<p id="result"></p>
+	<script>
+		function demo(){
+		var day1, day2, text,x, y= 1000 * 60 * 60*24;
+		day1 = document.getElementById("date1").value;
+		day2 = document.getElementById("date2").value;
+		if(day1!=""){
+    	if(day2!=""){
+
+                if (day1 > day2) {
+                document.getElementById("result").innerHTML = day1+"is bigger";
+   
+                } else {
+                document.getElementById("result").innerHTML = day1+"is smaller";
+    
+				}
+    		}
+		else{
+    		document.getElementById("result").innerHTML = "enter value2";
+			}
+		}
+		else{
+    		document.getElementById("result").innerHTML = "enter value1";
+		}
+	}
+	</script>
+
+	</body>
+	</html>

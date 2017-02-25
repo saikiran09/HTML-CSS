@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table{
+            height: 300px;
+            width: 300px;
+            background-color: #8aafea;
+        }
+        button{
+            width: 75px;
+            height: 60px;
+            font-size: 20pt;
+            background-color: #c5d8f7;
+        }
+        #display{
+            height: 60px;
+            width: 300px;
+            font-size: 28pt;
+        }
+        button:hover{
+            background-color: darkorange;
+        }
+        #c, #eq{
+            width: 150px;
+        }
+    </style>
+</head>
+<body align="center">
+    
+<table align="center">
+    <tr>
+        <td colspan="4"><input id="display" style="text-align:right"/></td>
+    </tr>
+    
+        
+    <tr>
+        <td><button id="b2" value=1 onclick="input(b2.value)">1</button></td>
+        <td><button id="b3" value=2 onclick="input(b3.value)">2</button></td>
+        <td><button id="b4" value=3 onclick="input(b4.value)">3</button></td>
+        <td><button id="b1" value=+ onclick="input(b1.value)">+</button></td>
+        
+    </tr>
+    <tr>
+        <td><button id="b6" value=4 onclick="input(b6.value)">4</button></td>
+        <td><button id="b7" value=5 onclick="input(b7.value)">5</button></td>
+        <td><button id="b8" value=6 onclick="input(b8.value)">6</button></td>
+        <td><button id="b5" value=- onclick="input(b5.value)">-</button></td>
+    </tr>
+    <tr>
+        <td><button id="b10" value=7 onclick="input(b10.value)">7</button></td>
+        <td><button id="b11" value=8 onclick="input(b11.value)">8</button></td>
+        <td><button id="b12" value=9 onclick="input(b12.value)">9</button></td>
+        <td><button id="b9" value=* onclick="input(b9.value)">*</button></td>
+    </tr>
+    <tr>
+        <td><button id="b14" value=. onclick="input(b14.value)">.</button></td>
+        <td><button id="b15" value=0 onclick="input(b15.value)">0</button></td>
+        <td><button id="b16" value=% onclick="input(b16.value)">%</button></td>
+        <td><button id="b13" value=/ onclick="input(b13.value)">/</button></td>
+    </tr>
+    <tr>
+        <td colspan="2"><button id="c" value=C onclick="c() ">C</button></td>
+        <td  colspan="2"><button id="eq" value== onclick="display.value=eval(display.value)">=</button></td>
+        
+    </tr>
+</table>
+
+<script>
+    function input(n){
+        var n1;
+        if(typeof(n)=="number")
+        {
+          display.value+=n;  
+        }
+       /* else if(n!=n1)
+        {
+            display.value+=n;
+        }
+        else{
+
+        }*/
+    }
+    function c(){
+        document.getElementById("display").value="";
+    }
+    </script>
+</body>
+</html>

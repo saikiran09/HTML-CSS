@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .container {
+        position: relative;
+        width: 200px;
+      }
+     .img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        background-color: #008CBA;
+      }
+    .container:hover .div1 {
+        opacity: 1;
+      }
+    .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 70px;
+        left: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="female_icon.png"  class="img">
+      <div class="div1">
+        <div class="text">Hello World</div>
+      </div>
+    </div>
+  </body>
+</html>

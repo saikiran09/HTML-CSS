@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #disp{
+            height: 100px;
+            width: 100%;
+            margin-top: 100px;
+            padding-top:50px;
+            padding-left: 45%;
+            background-color: #008CBA;}
+        </style>
+    </head>
+    <body>
+        <button onclick="demo()">Toggle Hide and Show</button>
+        <div id="disp">
+            Click the button
+        </div>
+        <script>
+        function demo(){
+            var vis=document.getElementById("disp");
+            if(vis.style.visibility==="visible"){
+            vis.style.visibility="hidden";
+            }
+            else{
+            vis.style.visibility="visible";
+            }
+            }
+        </script>
+    </body>
+</html>

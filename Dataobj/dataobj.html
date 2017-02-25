@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>:Data population</title>
+	<style>
+		#page{
+			width: 800px;
+			height: auto;
+			margin:0 auto;
+			background: gray;
+			color:#FFF;
+		}
+		#form{
+			background:#000;
+			height:50px;
+		}
+		#form input, #form button{
+			margin: 10px 10px;
+		} 
+		#form input{
+			padding: 0 0 0 5px;
+			width: 150px;
+			height:20px;
+			border-radius: 5px;
+			border:none;
+			font-size: 12px;
+		} 
+	
+	</style>
+</head>
+<body>
+<div id="page">
+	
+		<div id="form">
+			<input type="text" placeholder="UserName" id="userName" required/>
+			<input type="tel" placeholder="Phone" id="phone"  required/>
+			<input type="text" placeholder="Address" id="Address" required />
+			<input type="text" placeholder="RolId" id="rolId"/ required>
+		<button onClick="AddRec();">Add</button>
+		</div>
+	
+	
+	<table border=2 width= 100% id="tables">
+	</table> 
+	
+</div>
+
+
+<script src="dataobj.js">
+</script>
+
+
+
+</body>
+</html>
